@@ -1,0 +1,175 @@
+body{
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+#notification{
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    border-radius: 100%;
+    height:22px;
+    width:22px;
+}
+#googlapps{
+    position: absolute;
+    top: 20px;
+    right: 130px;
+    height:18px;
+    width:18px;
+}
+#profile{
+    position: absolute;
+    top: 15px;
+    right:30px;
+    border-radius: 100%;
+    height:25px;
+    width:25px;
+}
+li{
+   display: inline-block; 
+}
+a{
+     text-decoration: none;
+     color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+#images{
+    position: absolute;
+    top:20px;
+    right:170px;
+}
+#gmail{
+    position: absolute;
+    top:20px;
+    right:225px;
+}
+p{
+    position: absolute;
+    top:20px;
+    right:280px;
+    color:grey;
+    padding:0px;
+    margin:0px;
+}
+ol{
+    list-style-type: none;
+    float:right;
+    
+}
+#logo {
+    position: absolute;
+    left: 550px;
+    display: block;
+}
+.button{
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    height: 27px;
+    background-color: #f5f5f5;
+    font-family: arial;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #444;
+    white-space: nowrap;
+    line-height: 27px;        
+}
+#search {
+    position: absolute;
+    margin:11px 8px 11px 8px;
+    padding: 0px 8px 0px 8px;
+    display: inline-block;
+    width: 76px;
+    left: 567px;
+    top: 347px;
+}
+
+#lucky{
+    position: absolute;
+    margin:11px 8px 11px 8px;
+    padding: 0px 8px 0px 8px;
+    display: inline-block;
+    width: 90px;
+    left: 675px;
+    top: 347px;
+}
+#searchbox{
+    position:absolute;
+    height: 26px;
+    width:565px;
+    border:1px solid #cccccc;
+    margin: 0px auto 0px auto;
+    left:400px;
+    top: 312px;
+    line-height: 1.2em;
+    text-indent: 7px;
+}
+#searchbox:hover{
+    border: 1px solid #b2b2b2;
+    opacity: 1;
+}
+form img{
+    position: absolute;
+    top:317px;
+    right:405px;
+    display: inline-block;
+    height: 19px;
+    width: 14px;
+    margin: auto;
+    opacity: 0.6;
+    vertical-align: middle;
+    background-size: 14px 19px;
+}
+
+#footnav a{
+    color: #666;
+    display: inline-block;
+    font-size: 10pt;
+    font-family: arial;
+    white-space: nowrap;
+}
+#footnav {
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+    border:1px solid #e4e4e4;
+    background-color: #f2f2f2;
+    padding: 0;
+    height:6%;
+    margin: 0;
+    padding: 0;
+}
+#ads{
+    position: absolute;
+    left: 30px;
+    bottom: 12px;
+}
+#biz{
+    position: absolute;
+    bottom: 12px;
+    left:125px;
+}
+#about{
+    position: absolute;
+    bottom: 12px;
+    left:210px;
+}
+#privacy{
+    position: absolute;
+    bottom: 12px;
+    right: 178px;
+}
+#terms{
+    position: absolute;
+    bottom: 12px;
+    right:110px;
+}
+#settings{
+    position: absolute;
+    bottom: 12px;
+    right:32px;
+}
